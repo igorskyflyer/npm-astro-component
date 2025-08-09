@@ -1,6 +1,6 @@
 ## 📒 Changelog
 
-### of [@igor.dvlpr/astro-component](https://github.com/igorskyflyer/{{repo}})
+### of [@igor.dvlpr/astro-component](https://github.com/igorskyflyer/npm-astro-component)
 
 <br>
 
