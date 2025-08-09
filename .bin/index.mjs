@@ -4,6 +4,10 @@
 import fs from 'fs'
 import path from 'path'
 import os from 'os'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 const args = process.argv.slice(2)
 const isDryRun = args.includes('--dry')
@@ -15,7 +19,7 @@ if (!target) {
   process.exit(0)
 }
 
-const source = path.resolve('./data')
+const source = path.resolve(__dirname, '../data')
 const resolvedTarget = path.resolve(target)
 
 if (
