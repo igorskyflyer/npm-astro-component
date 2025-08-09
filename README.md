@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/igorskyflyer/npm-astro-render-component/main/assets/astro-component.png" alt="Icon of Astro Component" width="256" height="256">
+  <img src="https://raw.githubusercontent.com/igorskyflyer/npm-astro-component/main/assets/astro-component.png" alt="Icon of Astro Component" width="256" height="256">
 <h1 align="center">Astro Component</h1>
 </div>
 
@@ -16,7 +16,6 @@
 
 - [Features](#-features)
 - [Usage](#-usage)
-- [Example](#️-example)
 - [Changelog](#-changelog)
 - [Support](#-support)
 - [License](#-license)
@@ -27,7 +26,7 @@
 
 ## 🤖 Features
 
-- ⚡ Instantly scaffold Astro `.astro` components with prop typing
+- ⚡ Instantly scaffolds Astro `.astro` components with prop typing
 - 🧪 Generates Vitest-compatible test files with a DOM setup
 - 🧩 Supports automatic folder structuring and consistent naming conventions
 - 🛠️ Optional flags for dry-run, overwrite protection, and verbose output
@@ -37,21 +36,42 @@
 
 ## 🕵🏼 Usage
 
----
+Bootstrap Astro components into a target directory with zero config:
 
-## 🗒️ Example
+```bash
+npx "@igor.dvlpr/astro-component" <dest>
+```
+
+This will scaffold a test-ready Astro component suite into `<dest>`, complete with:
+
+- 🚀 Component and entrypoint code
+- 🧪 Vitest setup
+- 🧩 DOM environment
+- ⚙️ Render logic
+- 📦 Props and slots
+- 🧼 Clean file structure
+
+<br>
+
+To preview the generated files without writing anything, use the --dry flag:
+
+```bash
+npx "@igor.dvlpr/astro-component" <dest> --dry
+```
+
+You'll get a full log of what would be created, ideal for safe inspection before committing.
 
 ---
 
 ## 📝 Changelog
 
-📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-astro-render-component/blob/main/CHANGELOG.md).
+📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-astro-component/blob/main/CHANGELOG.md).
 
 ---
 
 ## 🪪 License
 
-Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-astro-render-component/blob/main/LICENSE.txt).
+Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-astro-component/blob/main/LICENSE.txt).
 
 ---
 
