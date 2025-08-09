@@ -1,6 +1,6 @@
 {
   "name": "@igor.dvlpr/astro-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🚀 A CLI tool for bootstrapping Astro components with test-ready scaffolding, render logic, props, slots, and Vitest setup included.  🧪",
   "sideEffects": false,
   "type": "module",
