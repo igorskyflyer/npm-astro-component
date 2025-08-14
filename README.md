@@ -23,6 +23,7 @@
 - [Author](#-author)
 
 <br>
+<br>
 
 ## 🤖 Features
 
@@ -32,6 +33,7 @@
 - 🛠️ Optional flags for dry-run, overwrite protection, and verbose output
 - 🌌 Light-weight and zero-config - just run and go
 
+<br>
 <br>
 
 ## 🕵🏼 Usage
@@ -52,6 +54,7 @@ This will scaffold a test-ready Astro component suite into `<dest>`, complete wi
 - 🧼 Clean file structure
 
 <br>
+<br>
 
 To preview the generated files without writing anything, use the --dry flag:
 
@@ -62,17 +65,20 @@ npx "@igor.dvlpr/astro-component" <dest> --dry
 You'll get a full log of what would be created, ideal for safe inspection before committing.
 
 <br>
+<br>
 
 ## 📝 Changelog
 
 📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-astro-component/blob/main/CHANGELOG.md).
 
 <br>
+<br>
 
 ## 🪪 License
 
 Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-astro-component/blob/main/LICENSE.txt).
 
+<br>
 <br>
 
 ## 💖 Support
@@ -89,6 +95,7 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
   <em>Thank you for supporting my efforts!</em> 🙏😊
 </div>
 
+<br>
 <br>
 
 ## 🧬 Related
@@ -121,6 +128,8 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 > _🧭 Add an easy-to-use navigational button (jump to top/bottom) to your Astro site. 🔼_
 
+<br>
+<br>
 <br>
 
 ## 👨🏻‍💻 Author
