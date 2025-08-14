@@ -1,46 +1,46 @@
 {
-    "name": "my-astro-component",
-    "version": "1.0.0",
-    "description": "⭐ My Astro component! 🚀",
-    "type": "module",
-    "engines": {
-        "node": ">=22.0.0"
-    },
-    "files": [
-        "src",
-        "index.ts",
-        "MyComponent.astro"
-    ],
-    "main": "index.ts",
-    "module": "index.ts",
-    "scripts": {
-        "pub": "npm publish --access public",
-        "test": "vitest"
-    },
-    "keywords": [
-        "astro-component",
-        "withastro"
-    ],
-    "license": "",
-    "author": "",
-    "funding": "",
-    "homepage": "",
-    "repository": {
-        "type": "git",
-        "url": "git+"
-    },
-    "bugs": {
-        "url": ""
-    },
-    "devDependencies": {
-        "@igor.dvlpr/astro-render-component": "^1.0.1",
-        "@types/node": "^22.16.2",
-        "astro": "^5.12.2",
-        "happy-dom": "^18.0.1",
-        "prettier": "^3.6.2",
-        "vitest": "^3.2.4"
-    },
-    "peerDependencies": {
-        "astro": "^5.0.0"
-    }
+  "name": "my-astro-component",
+  "version": "1.0.0",
+  "description": "⭐ My Astro component! 🚀",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "files": [
+    "src",
+    "index.ts",
+    "MyComponent.astro"
+  ],
+  "main": "index.ts",
+  "module": "index.ts",
+  "scripts": {
+    "pub": "npm publish --access public",
+    "test": "vitest"
+  },
+  "keywords": [
+    "astro-component",
+    "withastro"
+  ],
+  "license": "",
+  "author": "",
+  "funding": "",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "devDependencies": {
+    "@igor.dvlpr/astro-render-component": "^1.0.1",
+    "@types/node": "^22.17.1",
+    "astro": "^5.13.0",
+    "happy-dom": "^18.0.1",
+    "prettier": "^3.6.2",
+    "vitest": "^3.2.4"
+  },
+  "peerDependencies": {
+    "astro": "^5.0.0"
+  }
 }
