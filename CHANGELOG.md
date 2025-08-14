@@ -6,6 +6,7 @@
 
 ## v1.1.0 (_14-Aug-2024_)
 
+- **✨ feat**: option to install the dependencies after template copying
 - **✨ feat**: add README placeholder file
 
 <br>
