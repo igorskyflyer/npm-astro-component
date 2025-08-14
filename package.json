@@ -1,19 +1,19 @@
 {
   "name": "@igor.dvlpr/astro-component",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "🚀 A CLI tool for bootstrapping Astro components with test-ready scaffolding, render logic, props, slots, and Vitest setup included.  🧪",
   "sideEffects": false,
   "type": "module",
   "engines": {
-    "node": ">=20.0"
+    "node": ">=22.0"
   },
   "bin": {
-    "astro-component": "./.bin/index.mjs"
+    "astro-component": "./.bin/index.js"
   },
-  "main": "./.bin/index.mjs",
-  "module": "./.bin/index.mjs",
+  "main": "./.bin/index.js",
+  "module": "./.bin/index.js",
   "files": [
-    "./.bin/index.mjs",
+    "./.bin/index.js",
     "./data/"
   ],
   "scripts": {
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "prettier": "^3.6.2",
-    "@types/node": "^20.14.14",
+    "@types/node": "^22.17.1",
     "typescript": "^5.9.2"
   }
 }
