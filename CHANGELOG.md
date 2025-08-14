@@ -4,16 +4,23 @@
 
 <br>
 
-## v1.0.1
+## v1.1.0 (_14-Aug-2024_)
 
-<p align="right"><em>09-Aug-2024</em></p>
+- **✨ feat**: add README placeholder file
+
+<br>
+
+- **💻 dev**: upgrade dependencies
+- **💻 dev**: upgrade Node version
+
+<br>
+
+## v1.0.1 (_09-Aug-2024_)
 
 - **✅ fix**: fix local path for the `data` folder
 
 <br>
 
-## v1.0.0
-
-<p align="right"><em>09-Aug-2024</em></p>
+## v1.0.0 (_09-Aug-2024_)
 
 - **🚀 launch**: initial release 🎉
