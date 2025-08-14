@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 // Author: Igor Dimitrijević (@igorskyflyer)
 
-import fs from 'fs'
-import path from 'path'
-import os from 'os'
-import { fileURLToPath } from 'url'
+import fs from 'node:fs'
+import path from 'node:path'
+import os from 'node:os'
+import { fileURLToPath } from 'node:url'
+import { execSync } from 'node:child_process'
+import inquirer from 'inquirer'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -76,6 +78,29 @@ try {
     )
     previewRecursive(source, resolvedTarget)
   } else {
+    copyRecursive(source, resolvedTarget)
+    console.log(`✅ Files copied to: ${resolvedTarget}\n`)
+
+    const { installDeps } = await inquirer.prompt([
+      {
+        type: 'confirm',
+        name: 'installDeps',
+        message: 'Do you want to install the dependencies now?',
+        default: true
+      }
+    ])
+
+    if (installDeps) {
+      try {
+        execSync('npm install', { stdio: 'ignore', cwd: resolvedTarget })
+        console.log('📦 Dependencies installed.')
+      } catch (err) {
+        console.error('❌ Failed to install dependencies:', err)
+      }
+    } else {
+      console.log('🚫 Skipped dependency installation.')
+    }
+
     const closers = [
       '✨ Make it count!',
       '🚀 Ready for liftoff!',
@@ -85,8 +110,7 @@ try {
     ]
     const closer = closers[Math.floor(Math.random() * closers.length)]
 
-    copyRecursive(source, resolvedTarget)
-    console.log(`✅ Files copied to: ${resolvedTarget}\n\n${closer} 🤖`)
+    console.info(`\n${closer}`)
   }
 } catch (err) {
   console.error('💥 Operation failed:', err.message)
