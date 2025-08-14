@@ -22,7 +22,7 @@
 - [Related](#-related)
 - [Author](#-author)
 
----
+<br>
 
 ## 🤖 Features
 
@@ -61,19 +61,19 @@ npx "@igor.dvlpr/astro-component" <dest> --dry
 
 You'll get a full log of what would be created, ideal for safe inspection before committing.
 
----
+<br>
 
 ## 📝 Changelog
 
 📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-astro-component/blob/main/CHANGELOG.md).
 
----
+<br>
 
 ## 🪪 License
 
 Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-astro-component/blob/main/LICENSE.txt).
 
----
+<br>
 
 ## 💖 Support
 
@@ -89,7 +89,7 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
   <em>Thank you for supporting my efforts!</em> 🙏😊
 </div>
 
----
+<br>
 
 ## 🧬 Related
 
@@ -121,7 +121,7 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 > _🧭 Add an easy-to-use navigational button (jump to top/bottom) to your Astro site. 🔼_
 
----
+<br>
 
 ## 👨🏻‍💻 Author
 
