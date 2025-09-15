@@ -76,7 +76,7 @@ You'll get a full log of what would be created, ideal for safe inspection before
 
 ## 🪪 License
 
-Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-astro-component/blob/main/LICENSE.txt).
+Licensed under the [GPLv3 license](https://github.com/igorskyflyer/npm-astro-component/blob/main/LICENSE.txt).
 
 <br>
 <br>
