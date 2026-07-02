@@ -4,7 +4,7 @@
   "description": "⭐ My Astro component! 🚀",
   "type": "module",
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=24.0.0"
   },
   "files": [
     "src",
@@ -33,14 +33,14 @@
     "url": ""
   },
   "devDependencies": {
-    "@igor.dvlpr/astro-render-component": "^1.0.1",
-    "@types/node": "^22.17.1",
-    "astro": "^5.13.0",
-    "happy-dom": "^18.0.1",
-    "prettier": "^3.6.2",
-    "vitest": "^3.2.4"
+    "@igorskyflyer/astro-render-component": "^2.0.2",
+    "@types/node": "^24.13.2",
+    "astro": "^6.4.8",
+    "happy-dom": "^20.10.6",
+    "prettier": "^3.9.4",
+    "vitest": "^4.1.9"
   },
   "peerDependencies": {
-    "astro": "^5.0.0"
+    "astro": "^6.0.0"
   }
 }
