@@ -8,10 +8,10 @@
 
 ### Maintenance
 
-🔨 logic: upgrade dependencies in bootstrap package.json
-🔨 logic: update imports in bootstrap component
-🔨 logic: update imports in bootstrap index
-🔨 logic: update imports in bootstrap tests
+- **🔨 logic**: upgrade dependencies in bootstrap package.json
+- **🔨 logic**: update imports in bootstrap component
+- **🔨 logic**: update imports in bootstrap index
+- **🔨 logic**: update imports in bootstrap tests
 
 <br>
 
