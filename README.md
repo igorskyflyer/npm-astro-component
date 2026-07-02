@@ -2,6 +2,7 @@
   <img src="https://raw.githubusercontent.com/igorskyflyer/npm-astro-component/refs/heads/main/media/astro-component.png" alt="Icon of Astro Component" width="256" height="256">
   <h1>Astro Component</h1>
   <a href="https://www.npmjs.com/package/@igorskyflyer/astro-component"><img src="https://img.shields.io/npm/v/@igorskyflyer/astro-component.svg" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/@igorskyflyer/astro-component"><img src="https://img.shields.io/node/v/@igorskyflyer/astro-component.svg" alt="Node version"></a>
   <a href="https://www.npmjs.com/package/@igorskyflyer/astro-component"><img src="https://img.shields.io/npm/dt/@igorskyflyer/astro-component.svg" alt="npm downloads"></a>
   <a href="https://github.com/igorskyflyer/npm-astro-component/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/@igorskyflyer/astro-component.svg" alt="License"></a>
   <a href="https://liberapay.com/igorskyflyer/donate"><img src="https://img.shields.io/liberapay/receives/igorskyflyer.svg?logo=liberapay"></a>
