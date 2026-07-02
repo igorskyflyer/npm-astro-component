@@ -7,6 +7,8 @@
   <a href="https://liberapay.com/igorskyflyer/donate"><img src="https://img.shields.io/liberapay/receives/igorskyflyer.svg?logo=liberapay"></a>
 </div>
 
+<br>
+
 <blockquote align="center">
   CLI Scaffolding • Test-Ready Output • Zero Config • Astro Native
 </blockquote>
