@@ -1,27 +1,33 @@
-## 📒 Changelog
+# 📒 Changelog
 
-### of [@igor.dvlpr/astro-component](https://github.com/igorskyflyer/npm-astro-component)
-
-<br>
-
-## v1.1.0 (_14-Aug-2024_)
-
-- **✨ feat**: option to install the dependencies after template copying
-- **✨ feat**: add README placeholder file
+### of [**@igorskyflyer/astro-component**](https://github.com/igorskyflyer/npm-astro-component)
 
 <br>
 
-- **💻 dev**: upgrade dependencies
-- **💻 dev**: upgrade Node version
+## v1.1.0 - _2024-08-14_
+
+### New features
+
+- **🔨 logic**: add option to install dependencies after template copying
+- **🎨 assets**: add README placeholder file
 
 <br>
 
-## v1.0.1 (_09-Aug-2024_)
+### Maintenance
 
-- **✅ fix**: fix local path for the `data` folder
+- **📦 deps**: upgrade dependencies
+- **🔩 config**: upgrade Node version
 
 <br>
 
-## v1.0.0 (_09-Aug-2024_)
+## v1.0.1 - _2024-08-09_
 
-- **🚀 launch**: initial release 🎉
+### Fixes
+
+- **🔨 logic**: fix local path for the `data` folder
+
+<br>
+
+## v1.0.0 - _2024-08-09_
+
+- **🚀 env**: release initial version 🎉
