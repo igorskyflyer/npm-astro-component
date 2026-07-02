@@ -1,11 +1,11 @@
 {
-  "name": "@igor.dvlpr/astro-component",
-  "version": "1.1.0",
+  "name": "@igorskyflyer/astro-component",
+  "version": "1.1.1",
   "description": "🚀 A CLI tool for bootstrapping Astro components with test-ready scaffolding, render logic, props, slots, and Vitest setup included.  🧪",
-  "sideEffects": false,
   "type": "module",
+  "sideEffects": false,
   "engines": {
-    "node": ">=22.0"
+    "node": ">=24.0"
   },
   "bin": {
     "astro-component": "./.bin/index.js"
@@ -16,8 +16,37 @@
     "./.bin/index.js",
     "./data/"
   ],
+  "dependencies": {
+    "inquirer": "^14.0.2"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.2",
+    "@igorskyflyer/biome-config": "^2.4.1",
+    "@igorskyflyer/tsconfig": "^1.0.2",
+    "@types/node": "^24.13.2",
+    "typescript": "^6.0.3"
+  },
   "scripts": {
-    "pub": "npm publish --access public"
+    "build": "tsc",
+    "test": "vitest --run --passWithNoTests",
+    "pub": "pnpm test && git push origin main --tags && npm publish --access public"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@11.9.0",
+  "private": false,
+  "license": "GPL-3.0-only",
+  "author": "Igor Dimitrijević <support@igorskyflyer.me> (https://github.com/igorskyflyer)",
+  "funding": "https://ko-fi.com/igorskyflyer",
+  "homepage": "https://github.com/igorskyflyer/npm-astro-component",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorskyflyer/npm-astro-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/igorskyflyer/npm-astro-component/issues"
   },
   "keywords": [
     "withastro",
@@ -28,26 +57,7 @@
     "setup",
     "component",
     "utility",
-    "igorskyflyer",
-    "igor.dvlpr"
-  ],
-  "license": "MIT",
-  "author": "Igor Dimitrijević <admin@igorskyflyer.me> (https://github.com/igorskyflyer)",
-  "funding": "https://ko-fi.com/igorskyflyer",
-  "homepage": "https://github.com/igorskyflyer/npm-astro-component",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/igorskyflyer/npm-astro-component.git"
-  },
-  "bugs": {
-    "url": "https://github.com/igorskyflyer/npm-astro-component/issues"
-  },
-  "devDependencies": {
-    "@types/node": "^22.17.1",
-    "prettier": "^3.6.2",
-    "typescript": "^5.9.2"
-  },
-  "dependencies": {
-    "inquirer": "^12.9.2"
-  }
+    "igor dimitrijević",
+    "igorskyflyer"
+  ]
 }
